@@ -38,14 +38,14 @@ This repository contains a Quiz Application developed as part of a college proje
 ## Technologies Used
 
 - **Backend**: PHP, MySQL
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS(Tailwind-daisyUI), JavaScript
 
 ## May add these features
 
-- **User Profile**: View and update profile information.
-- **Question Types**: Supports multiple-choice questions with single correct answers.
-- **Real-time Scoring**: Users receive immediate feedback on their quiz performance.
 - **Responsive Design**: Accessible on various devices.
+- **User-Friendly Interface**: Easy navigation and interaction.
+- **Security**: Implement authentication and authorization.
+- **Error Handling**: Proper error handling and logging.
 
 ## Contributing
 
