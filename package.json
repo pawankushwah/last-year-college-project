@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "daisyui": "^5.0.23",
+    "tailwindcss": "^4.1.4"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4"
+  },
+  "name": "quiz_app",
+  "version": "1.0.0",
+  "description": "This repository contains a Quiz Application developed as part of a college project. The application is built using PHP and provides a platform for users to create, manage, and participate in quizzes.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./assets/tailwind/tailwind.css -o ./assets/css/tailwind.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

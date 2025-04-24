@@ -6,9 +6,9 @@ redirectIfNotLoggedIn();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $title = $_POST['title'];
     $desc  = $_POST['description'];
-    $show_on_submit = $_POST['show_on_submit'];
+    $show_on_submit = $_POST['show_on_submit'] ?? "";
 
-    if (!$title || !$desc || !$show_on_submit) {
+    if (!$title || !$desc) {
         header("Location:". BASE_URL ."views/create_quiz.php");
         exit();
     }
